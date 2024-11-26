@@ -1,8 +1,7 @@
 #ifndef PROCESSLIST_H
 #define PROCESSLIST_H
+
 #include <vector>
-#include <algorithm>
-#include <iostream>
 #include "Process.h"
 using namespace std;
 class ProcessList {

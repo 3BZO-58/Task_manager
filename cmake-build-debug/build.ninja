@@ -55,6 +55,18 @@ build CMakeFiles/problemNo_5.dir/main.cpp.obj: CXX_COMPILER__problemNo_5_unscann
   OBJECT_DIR = CMakeFiles\problemNo_5.dir
   OBJECT_FILE_DIR = CMakeFiles\problemNo_5.dir
 
+build CMakeFiles/problemNo_5.dir/process.cpp.obj: CXX_COMPILER__problemNo_5_unscanned_Debug C$:/Users/LOQ/CLionProjects/problemNo_5/process.cpp || cmake_object_order_depends_target_problemNo_5
+  DEP_FILE = CMakeFiles\problemNo_5.dir\process.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problemNo_5.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemNo_5.dir
+
+build CMakeFiles/problemNo_5.dir/processList.cpp.obj: CXX_COMPILER__problemNo_5_unscanned_Debug C$:/Users/LOQ/CLionProjects/problemNo_5/processList.cpp || cmake_object_order_depends_target_problemNo_5
+  DEP_FILE = CMakeFiles\problemNo_5.dir\processList.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problemNo_5.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemNo_5.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target problemNo_5
@@ -63,7 +75,7 @@ build CMakeFiles/problemNo_5.dir/main.cpp.obj: CXX_COMPILER__problemNo_5_unscann
 #############################################
 # Link the executable problemNo_5.exe
 
-build problemNo_5.exe: CXX_EXECUTABLE_LINKER__problemNo_5_Debug CMakeFiles/problemNo_5.dir/main.cpp.obj
+build problemNo_5.exe: CXX_EXECUTABLE_LINKER__problemNo_5_Debug CMakeFiles/problemNo_5.dir/main.cpp.obj CMakeFiles/problemNo_5.dir/process.cpp.obj CMakeFiles/problemNo_5.dir/processList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\problemNo_5.dir

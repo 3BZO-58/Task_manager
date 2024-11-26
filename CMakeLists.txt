@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(problemNo_5 main.cpp
         process.h
-        ProcessList.h)
+        ProcessList.h
+        process.cpp
+        processList.cpp)
