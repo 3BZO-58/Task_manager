@@ -1,3 +1,0 @@
-C:/Users/LOQ/CLionProjects/problemNo_5/cmake-build-debug/CMakeFiles/problemNo_5.dir
-C:/Users/LOQ/CLionProjects/problemNo_5/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/LOQ/CLionProjects/problemNo_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
