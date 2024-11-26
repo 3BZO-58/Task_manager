@@ -11,3 +11,12 @@ int Process::getPid() {
 size_t Process::getMemUsage() {
     return memUsage;
 }
+
+string Process::getSessionName() {
+    return sessionName;
+}
+
+int Process::getSessionNum() {
+    return sessionNum;
+}
+
